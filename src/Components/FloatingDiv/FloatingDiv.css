@@ -1,0 +1,17 @@
+.floatingdiv{
+    justify-content: space-around;
+    display: flex;
+    background:white;
+    box-shadow: var(--boxShadow);
+    border: radius 17px;
+    }
+    
+    .flaotingdiv>img{
+        transform: scale(0.4);
+    }
+    
+    .floatingdiv>span{
+        font-family: sans-serif;
+        font-size: 19px;
+        
+    }
