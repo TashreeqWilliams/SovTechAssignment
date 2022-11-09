@@ -37,3 +37,9 @@ font-weight: bold;
     height: 2rem;
     margin-top: 1rem;
 }
+
+.i-name{
+    font-weight: 100;
+    font-size: 20px;
+    color:var(--grey) ;
+}

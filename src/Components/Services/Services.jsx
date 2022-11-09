@@ -2,6 +2,7 @@ import React from "react";
 import './Services.css'
 import HeartEmoji from "../../img/heartemoji.png";
 import Card from "../Card/Card";
+import Resume_TashreeqWilliams from '../../img/Resume_TashreeqWilliams.pdf';
 
 
 
@@ -15,12 +16,14 @@ const Services = () => {
             <span>SOVTECH</span>
             <spane>· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·· ·<br /></spane>
            
+           <a href={Resume_TashreeqWilliams} download>
             <button className="button s-button">DOWNLOAD RESUME</button>
+            </a>
           
            <div className="blur s-blur1" style={{background: "#ABF1FF94"}}></div>
       </div>
       <div className="cards">
-     <div>
+     <div className="i-name">
         <Card emoji={HeartEmoji} 
         heading = {''}/>
          
